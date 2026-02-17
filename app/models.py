@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String, Date, ForeignKey
+from sqlalchemy import Column, Integer, String, Date, ForeignKey, Boolean
 from sqlalchemy.orm import relationship
 from app.database import Base
+
 
 class User(Base):
     __tablename__ = "users"
@@ -9,6 +10,10 @@ class User(Base):
     name = Column(String, nullable=False)
     email = Column(String, unique=True, index=True)
     hashed_password = Column(String, nullable=False)
+    first_name =  Column(String, nullable=False)
+    last_name = Column(String, nullable=False)
+    date_of_birth = Column(String, nullable=False)
+    is_active = Column(Boolean, default=True)
     
     trips = relationship("Trip", back_populates="user", cascade="all, delete")
 

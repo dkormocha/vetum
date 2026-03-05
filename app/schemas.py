@@ -1,4 +1,4 @@
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, EmailStr
 from datetime import date
 from typing import List
 
@@ -7,8 +7,8 @@ from typing import List
 #Base Schema other classes will inherit instead repeating common fields
 class UserBase(BaseModel):
     """ Base User Schema"""
-    name: str
-    email: str
+    username: str
+    email: EmailStr
 
 class UserCreate(UserBase):
     """User Creation Schema"""

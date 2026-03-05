@@ -31,19 +31,25 @@ Backend
 📁 Project Structure
 
 Vetum/
-├── app/
-│   ├── main.py           # FastAPI entry point
-│   ├── api/              # API route definitions
-│   ├── models/           # SQLAlchemy models
-│   ├── schemas/          # Pydantic schemas
-│   ├── services/         # Business logic layer
-│   ├── db/               # Database configuration
-│   └── core/             # Settings & security
-├── alembic/              # Database migrations
-├── tests/                # Unit and integration tests
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
+├── alembic
+├── app
+│   ├── __pycache__
+│   ├── routes
+│   │   ├── __init__.py
+│   │   ├── matches.py
+│   │   ├── trips.py
+│   │   └── users.py
+│   ├── __init__.py
+│   ├── config.py
+│   ├── database.py
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── security.py
+├── tests
+├── .gitignore
+├── alembic.ini
+└── requirements.txt
 
 
 ⸻

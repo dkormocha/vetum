@@ -5,26 +5,26 @@ A full-stack travel social application built with FastAPI that allows users to s
 ⸻
 
 ### 🚀 Features To Add:
-	-	🔐 User registration and login (JWT authentication)
-	-	👤 Multi-user support
-	-	🗓️ Date-based filtering
-	-	📦 RESTful API design
-	-	🗄️ PostgreSQL database integration
-	-	🔄 Database migrations with Alembic
-	-	🐳 Docker support (optional)
-	-	☁️ Cloud deployment ready (e.g., AWS EC2)
+	•	🔐 User registration and login (JWT authentication)
+	•	👤 Multi-user support
+	•	🗓️ Date-based filtering
+	•	📦 RESTful API design
+	•	🗄️ PostgreSQL database integration
+	•	🔄 Database migrations with Alembic
+	•	🐳 Docker support (optional)
+	•	☁️ Cloud deployment ready (e.g., AWS EC2)
 
 ⸻
 
 ### 🏗️ Tech Stack
 
 Backend
-	-	FastAPI
-	-	Uvicorn
-	-	SQLAlchemy
-	-	PostgreSQL
-	-	Pydantic
-	-	Alembic
+	•	FastAPI
+	•	Uvicorn
+	•	SQLAlchemy
+	•	PostgreSQL
+	•	Pydantic
+	•	Alembic
 
 
 
@@ -75,8 +75,8 @@ Application will be available at:
 http://127.0.0.1:8000
 
 Interactive API documentation:
-	-	Swagger UI → /docs
-	-	ReDoc → /redoc
+	•	Swagger UI → /docs
+	•	ReDoc → /redoc
 
 
 

@@ -12,7 +12,7 @@ A full-stack travel social application built with FastAPI that allows users to s
 	•	🗄️ PostgreSQL database integration
 	•	🔄 Database migrations with Alembic
 	•	🐳 Docker support (optional)
-	•	☁️ Cloud deployment ready (e.g., AWS EC2)
+	•	☁️ Cloud deployment (AWS EC2)
 
 ⸻
 

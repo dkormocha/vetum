@@ -31,22 +31,19 @@ Backend
 📁 Project Structure
 
 Vetum/
-│
 ├── app/
-│   ├── main.py              # FastAPI entry point
-│   ├── api/                 # API route definitions
-│   ├── models/              # SQLAlchemy models
-│   ├── schemas/             # Pydantic schemas
-│   ├── services/            # Business logic layer
-│   ├── db/                  # Database configuration
-│   └── core/                # Settings & security
-│
-├── alembic/                 # Database migrations
-├── tests/                   # Unit and integration tests
+│   ├── main.py           # FastAPI entry point
+│   ├── api/              # API route definitions
+│   ├── models/           # SQLAlchemy models
+│   ├── schemas/          # Pydantic schemas
+│   ├── services/         # Business logic layer
+│   ├── db/               # Database configuration
+│   └── core/             # Settings & security
+├── alembic/              # Database migrations
+├── tests/                # Unit and integration tests
 ├── requirements.txt
 ├── docker-compose.yml
 └── README.md
-
 
 
 ⸻

@@ -4,7 +4,7 @@ A full-stack travel social application built with FastAPI that allows users to s
 
 ⸻
 
-🚀 Features To Add:
+###🚀 Features To Add:
 	-	🔐 User registration and login (JWT authentication)
 	-	👤 Multi-user support
 	-	🗓️ Date-based filtering
@@ -16,7 +16,7 @@ A full-stack travel social application built with FastAPI that allows users to s
 
 ⸻
 
-🏗️ Tech Stack
+###🏗️ Tech Stack
 
 Backend
 	-	FastAPI
@@ -28,7 +28,7 @@ Backend
 
 
 
-📁 Project Structure
+###📁 Project Structure
 ```
 Vetum/
 ├── alembic
@@ -55,7 +55,7 @@ Vetum/
 
 ⸻
 
-🗄️ Database Setup
+###🗄️ Database Setup
 
 Run migrations:
 
@@ -64,7 +64,7 @@ alembic upgrade head
 
 ⸻
 
-▶️ Running the Application
+###▶️ Running the Application
 
 Development mode
 
@@ -82,7 +82,7 @@ Interactive API documentation:
 
 ⸻
 
-🔐 Authentication Flow
+###🔐 Authentication Flow
 	1.	User registers
 	2.	Password is securely hashed
 	3.	User logs in
@@ -91,7 +91,7 @@ Interactive API documentation:
 
 ⸻
 
-🧪 Running Tests
+###🧪 Running Tests
 
 pytest
 
